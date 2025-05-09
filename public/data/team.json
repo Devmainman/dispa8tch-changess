@@ -1,0 +1,39 @@
+{
+  "team_members": [
+    {
+      "fullName": "Samson Afolabi Gbemiga",
+      "title": "CO-FOUNDER, CEO",
+      "src": "/images/team/Samson.jpeg"
+    },
+    {
+      "fullName": "Medewase Olawale Emmanuel",
+      "title": "CO-FOUNDER, CMO",
+      "src": "/images/team/medah.jpg"
+    },
+    {
+      "fullName": "Adindu Chizitere Amarachukwu",
+      "title": "CO-FOUNDER, COO",
+      "src": "/images/team/edward.jpg"
+    },
+    {
+      "fullName": "Akpomughe Caleb Ogheneochuko",
+      "title": "PRODUCT DESIGNER",
+      "src": "/images/team/caleb.jpg"
+    },
+    {
+      "fullName": "Charles Ikechukwu Ikechukwu",
+      "title": "FRONTEND DEVELOPER",
+      "src": "/images/team/charles-1.jpg"
+    },
+    {
+      "fullName": "James Ugqu Kelechi",
+      "title": "BACKEND DEVELOPER",
+      "src": "/images/team/James.jpg"
+    },
+    {
+      "fullName": "Levi King David",
+      "title": "FRONTEND DEVELOPER",
+      "src": "/images/team/levi.jpg"
+    }
+  ]
+}
