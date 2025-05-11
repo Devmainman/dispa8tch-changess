@@ -135,7 +135,7 @@ const NewOrderForm: React.FC<NewOrderFormProps> = ({ onClose, onSave }) => {
       }}
     >
       <div 
-    className="bg-white rounded-md shadow-lg w-full max-w-6xl max-h-screen overflow-y-auto scrollbar-thin"
+    className="bg-white rounded-md shadow-lg w-full max-w-6xl h-[90%] overflow-y-auto scrollbar-thin"
     onClick={(e) => e.stopPropagation()} 
     style={{
       scrollbarWidth: 'thin', /* Firefox */
@@ -172,7 +172,7 @@ const NewOrderForm: React.FC<NewOrderFormProps> = ({ onClose, onSave }) => {
           {/* Left Column */}
           <div className="w-1/2 p-6 border-r">
             <div className="mb-6">
-              <label className="block text-sm font-normal mb-1 flex items-center">
+              <label className="text-sm font-normal mb-1 flex items-center">
                 Order number
                 <span className="text-red-500 ml-1">*</span>
               </label>
@@ -188,7 +188,7 @@ const NewOrderForm: React.FC<NewOrderFormProps> = ({ onClose, onSave }) => {
             <h3 className="text-lg font-medium mb-4">Pick-up From:</h3>
             
             <div className="mb-4">
-              <label className="block text-sm font-normal mb-1 flex items-center">
+              <label className="text-sm font-normal mb-1 flex items-center">
                 Name
                 <span className="text-red-500 ml-1">*</span>
               </label>
@@ -202,7 +202,7 @@ const NewOrderForm: React.FC<NewOrderFormProps> = ({ onClose, onSave }) => {
             </div>
 
             <div className="mb-4">
-              <label className="block text-sm font-normal mb-1 flex items-center">
+              <label className="text-sm font-normal mb-1 flex items-center">
                 Phone number
                 <span className="text-red-500 ml-1">*</span>
               </label>
@@ -225,7 +225,7 @@ const NewOrderForm: React.FC<NewOrderFormProps> = ({ onClose, onSave }) => {
             </div>
 
             <div className="mb-4">
-              <label className="block text-sm font-normal mb-1 flex items-center">
+              <label className="text-sm font-normal mb-1 flex items-center">
                 Address
                 <span className="text-red-500 ml-1">*</span>
               </label>
@@ -244,7 +244,7 @@ const NewOrderForm: React.FC<NewOrderFormProps> = ({ onClose, onSave }) => {
             </div>
 
             <div className="mb-6">
-              <label className="block text-sm font-normal mb-1 flex items-center">
+              <label className="text-sm font-normal mb-1 flex items-center">
                 Pick-up Time
                 <span className="text-red-500 ml-1">*</span>
               </label>
@@ -270,7 +270,7 @@ const NewOrderForm: React.FC<NewOrderFormProps> = ({ onClose, onSave }) => {
             <h3 className="text-lg font-medium mb-4">Deliver To:</h3>
             
             <div className="mb-4">
-              <label className="block text-sm font-normal mb-1 flex items-center">
+              <label className="text-sm font-normal mb-1 flex items-center">
                 Name
                 <span className="text-red-500 ml-1">*</span>
               </label>
@@ -284,7 +284,7 @@ const NewOrderForm: React.FC<NewOrderFormProps> = ({ onClose, onSave }) => {
             </div>
 
             <div className="mb-4">
-              <label className="block text-sm font-normal mb-1 flex items-center">
+              <label className="text-sm font-normal mb-1 flex items-center">
                 Phone number
                 <span className="text-red-500 ml-1">*</span>
               </label>
@@ -307,7 +307,7 @@ const NewOrderForm: React.FC<NewOrderFormProps> = ({ onClose, onSave }) => {
             </div>
 
             <div className="mb-4">
-              <label className="block text-sm font-normal mb-1 flex items-center">
+              <label className="text-sm font-normal mb-1 flex items-center">
                 Email
                 <span className="text-red-500 ml-1">*</span>
               </label>
@@ -321,7 +321,7 @@ const NewOrderForm: React.FC<NewOrderFormProps> = ({ onClose, onSave }) => {
             </div>
 
             <div className="mb-4">
-              <label className="block text-sm font-normal mb-1 flex items-center">
+              <label className="text-sm font-normal mb-1 flex items-center">
                 Address
                 <span className="text-red-500 ml-1">*</span>
               </label>
@@ -342,7 +342,7 @@ const NewOrderForm: React.FC<NewOrderFormProps> = ({ onClose, onSave }) => {
             <div className="mb-4">
               <div className="flex gap-4">
                 <div className="w-1/2">
-                  <label className="block text-sm font-normal mb-1 flex items-center">
+                  <label className="text-sm font-normal mb-1 flex items-center">
                     Delivery Date
                     <span className="text-red-500 ml-1">*</span>
                   </label>
@@ -365,7 +365,7 @@ const NewOrderForm: React.FC<NewOrderFormProps> = ({ onClose, onSave }) => {
                   </div>
                 </div>
                 <div className="w-1/2">
-                  <label className="block text-sm font-normal mb-1 flex items-center">
+                  <label className="text-sm font-normal mb-1 flex items-center">
                     Delivery Time
                     <span className="text-red-500 ml-1">*</span>
                   </label>
@@ -447,7 +447,7 @@ const NewOrderForm: React.FC<NewOrderFormProps> = ({ onClose, onSave }) => {
             </div>
 
             <div className="mb-4">
-              <label className="block text-sm font-normal mb-1 flex items-center">
+              <label className="text-sm font-normal mb-1 flex items-center">
                 Delivery fees:
                 <span className="text-red-500 ml-1">*</span>
               </label>

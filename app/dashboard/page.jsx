@@ -75,7 +75,7 @@ const Dashboard = () => {
               <div className="text-sm text-gray-600">Today's deliveries</div>
               <div className="text-3xl font-bold mt-2">1,000</div>
               <div className="absolute right-0 bottom-0">
-                <div className="w-20 h-20 bg-blue-500 border border-white border-[4px] rounded-full transform translate-x-1/4 translate-y-1/4"></div>
+                <div className="w-20 h-20 bg-blue-500 border-white border-[4px] rounded-full transform translate-x-1/4 translate-y-1/4"></div>
               </div>
             </div>
             
@@ -83,7 +83,7 @@ const Dashboard = () => {
               <div className="text-sm text-gray-600">Completed deliveries</div>
               <div className="text-3xl font-bold mt-2">100</div>
               <div className="absolute right-0 bottom-0">
-                <div className="w-20 h-20 bg-gradient-to-r from-blue-500 border border-white border-[4px] to-purple-500 rounded-full transform translate-x-1/4 translate-y-1/4"></div>
+                <div className="w-20 h-20 bg-gradient-to-r from-blue-500 border-white border-[4px] to-purple-500 rounded-full transform translate-x-1/4 translate-y-1/4"></div>
               </div>
             </div>
             
@@ -91,7 +91,7 @@ const Dashboard = () => {
               <div className="text-sm text-gray-600">Assigned riders</div>
               <div className="text-3xl font-bold mt-2">576</div>
               <div className="absolute right-0 bottom-0">
-                <div className="w-20 h-20 bg-gradient-to-r border border-white border-[4px] from-red-500 to-orange-500 rounded-full transform translate-x-1/4 translate-y-1/4"></div>
+                <div className="w-20 h-20 bg-gradient-to-r border-white border-[4px] from-red-500 to-orange-500 rounded-full transform translate-x-1/4 translate-y-1/4"></div>
               </div>
             </div>
           </div>

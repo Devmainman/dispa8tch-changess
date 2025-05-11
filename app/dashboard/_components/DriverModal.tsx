@@ -96,7 +96,10 @@ const DriverModal = ({ open, setOpen }: any) => {
   return (
     <Dialog open={open} onOpenChange={setOpen}>
       {/* <DialogTrigger>Add New Driver</DialogTrigger> */}
-      <DialogContent className="overflow-y-auto">
+      <DialogContent className="overflow-y-auto scrollbar-thin h-[90%]" style={{
+        scrollbarWidth: 'thin', /* Firefox */
+        scrollbarColor: 'rgba(203, 213, 225, 0.5) transparent', /* Firefox */
+      }}>
         <DialogHeader>
           <DialogTitle className="text-3xl font-semibold">
             Add a new driver
